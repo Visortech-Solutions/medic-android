@@ -13,7 +13,7 @@ platform :android do
 
     gradle(task: gradleTaskName)
 
-    supply(
+   =begin  supply(
       package_name: package_name,
       track: "alpha",
       json_key: "playstore-secret.json",
@@ -28,6 +28,6 @@ platform :android do
       validate_only: false,
 
       timeout: 3600,
-    )
+    ) =end
   end
 end
