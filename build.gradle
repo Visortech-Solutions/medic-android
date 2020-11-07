@@ -246,6 +246,9 @@ android {
     pih_malawi_supervisor {
       applicationId = 'org.medicmobile.webapp.mobile.pih_malawi_supervisor'
     }
+    safaridoctors_kenya {
+      applicationId = 'org.medicmobile.webapp.safaridoctors_kenya'
+    }
     simprints {
       applicationId = 'org.medicmobile.webapp.mobile.simprints'
 

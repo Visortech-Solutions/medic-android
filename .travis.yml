@@ -22,7 +22,7 @@ jobs:
     - stage: deploy
       # flavors sorted alphabetically with three per job
       script:
-        - fastlane deploy flavor:safaridoctors
+        - fastlane deploy flavor:safaridoctors_kenya
 before_install:
   - openssl aes-256-cbc -K $encrypted_323c4a109760_key -iv $encrypted_323c4a109760_iv -in secrets.tar.gz.enc -out ./secrets.tar.gz -d
   - tar -xf ./secrets.tar.gz
